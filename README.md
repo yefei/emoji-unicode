@@ -5,7 +5,7 @@
 [![pypi](https://img.shields.io/pypi/v/emoji-unicode.svg?style=flat-square)](https://pypi.python.org/pypi/emoji-unicode)
 [![licence](https://img.shields.io/pypi/l/emoji-unicode.svg?style=flat-square)](https://raw.githubusercontent.com/nitely/emoji-unicode/master/LICENSE)
 
-Replace unicode emojis in a text. Supports *Unicode 8* standard.
+Replace unicode emojis in a text. Supports *Unicode 10* standard.
 
 ## Compatibility
 
@@ -71,9 +71,9 @@ re.sub(PATTERN, match_handler, u'Time to ⛽')
 
 [docs](http://emoji-unicode.readthedocs.org/en/latest/)
 
-## Unicode 8 emojis
+## Unicode 10 emojis
 
-If your current emoji package supports unicode 8,
+If your current emoji package supports unicode 10,
 which means it supports skin tones and [sequences](http://unicode.org/reports/tr51/),
 then [normalizing](https://github.com/nitely/emoji-unicode#normalize) the file names
 should be enough. But to handle unsupported emojis, for example future sequences,
